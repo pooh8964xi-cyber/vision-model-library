@@ -1,0 +1,2167 @@
+{
+  "schema_version": 1,
+  "release": "v0.1.0",
+  "models": [
+    {
+      "file": "vision-apex-29ccac2ac5e9.rknn",
+      "format": "rknn",
+      "categories": [
+        "Apex英雄"
+      ],
+      "sha256": "29ccac2ac5e92f572ab3aec9bb1b73574adacacabe28532a22bc7526baf5a90b",
+      "bytes": 4062462,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-apex-29ccac2ac5e9.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-apex-8183ae79a89e.rknn",
+      "format": "rknn",
+      "categories": [
+        "Apex英雄"
+      ],
+      "sha256": "8183ae79a89e9e89f5ef0be0d159a9229fb653ac73cacb038c31e8bbb81f3822",
+      "bytes": 4185222,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-apex-8183ae79a89e.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-apex-v5n-320-9084edc73583.rknn",
+      "format": "rknn",
+      "categories": [
+        "Apex英雄"
+      ],
+      "sha256": "9084edc73583b08739fb53d2dea451a1feeeba7ec5947557f238fddc2b78c868",
+      "bytes": 4061566,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-apex-v5n-320-9084edc73583.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-apex-v5s-640-f1284a9c0460.rknn",
+      "format": "rknn",
+      "categories": [
+        "Apex英雄"
+      ],
+      "sha256": "f1284a9c0460a665de6fa158fc8e7b134dbddf5a809d942e2abe7edee91a1781",
+      "bytes": 9559038,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-apex-v5s-640-f1284a9c0460.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-apex-yolov5-2-267d6474dac3.rknn",
+      "format": "rknn",
+      "categories": [
+        "Apex英雄"
+      ],
+      "sha256": "267d6474dac3ca85cd027f8ddcc4756de82737e33175bcb15821068275414321",
+      "bytes": 2539317,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-apex-yolov5-2-267d6474dac3.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-apex-yolov8-n-256-fp32-6a10c0ad023b.rknn",
+      "format": "rknn",
+      "categories": [
+        "Apex英雄"
+      ],
+      "sha256": "6a10c0ad023bba47e09cc4c58b4a4156490d42ab92de4039a5e4a99d02560d8d",
+      "bytes": 4063948,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-apex-yolov8-n-256-fp32-6a10c0ad023b.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "cs2-0f4b97e11070.rknn",
+      "format": "rknn",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "0f4b97e11070228a5ffa30ee6a0a8fcd77107d9cf2993edc32d2c0b23e1a478e",
+      "bytes": 4185286,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-0f4b97e11070.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "cs2-14w-320-v11-0-1-2-3-58c7ce04d81f.pt",
+      "format": "pt",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "58c7ce04d81f95c4c80f600026debe79b2a46ed21f08980dfd06dc0f09aaed63",
+      "bytes": 10745730,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-14w-320-v11-0-1-2-3-58c7ce04d81f.pt",
+      "validation": "checkpoint-container",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "cs2-14w-320-v11-0-1-2-3-7f75ce2e2214.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "7f75ce2e22146d732d3d39c5b8d91431e1d48395bb5faf81039320179597f7e0",
+      "bytes": 10459617,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            320,
+            320
+          ]
+        }
+      ],
+      "classes": [
+        "CT-boby",
+        "CT-head",
+        "T-boby",
+        "T-head"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-14w-320-v11-0-1-2-3-7f75ce2e2214.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "cs2-14w-320-v5-0-1-2-3-430007ae433f.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "430007ae433f6bcfb13f33e8ccb071623d98056bc6009389f2f0dc61e652affb",
+      "bytes": 7157625,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            320,
+            320
+          ]
+        }
+      ],
+      "classes": [
+        "ct_body",
+        "ct_head",
+        "t_body",
+        "t_head"
+      ],
+      "embedded_license": null,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-14w-320-v5-0-1-2-3-430007ae433f.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "cs2-14w-320-v5-0-1-2-3-c573291e6df0.pt",
+      "format": "pt",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "c573291e6df0364a4c22db2032c452cca1f5ff297de1290feb5a08a03372ed90",
+      "bytes": 3775813,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-14w-320-v5-0-1-2-3-c573291e6df0.pt",
+      "validation": "checkpoint-container",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "cs2-14w-320-v8-0-1-2-3-60c9ba1de134.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "60c9ba1de1348700f5f8f0112bab643af2caa596772729f4f2099f37eecefb90",
+      "bytes": 12219361,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            640,
+            640
+          ]
+        }
+      ],
+      "classes": [
+        "ct_body",
+        "ct_head",
+        "t_body",
+        "t_head"
+      ],
+      "embedded_license": "AGPL-3.0 https://ultralytics.com/license",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-14w-320-v8-0-1-2-3-60c9ba1de134.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "cs2-14w-320-v8-0-1-2-3-ed0a59c1d387.pt",
+      "format": "pt",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "ed0a59c1d387bce2e45b39b6f0058324e5253675184ea98ed88174b55dbfd66e",
+      "bytes": 6257376,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-14w-320-v8-0-1-2-3-ed0a59c1d387.pt",
+      "validation": "checkpoint-container",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "cs2-320-ais-csgo-yolov9n-dw-01eb66850cc5.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "01eb66850cc527262957efedf25976f3b0c38a1e9b4c44d8ea42d8c9269435cb",
+      "bytes": 28228990,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            320,
+            320
+          ]
+        }
+      ],
+      "classes": [
+        "t_body",
+        "t_head",
+        "ct_body",
+        "ct_head"
+      ],
+      "embedded_license": null,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-320-ais-csgo-yolov9n-dw-01eb66850cc5.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "cs2-320-b0d5e258e001.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "b0d5e258e0019ff756061753d83c3826973911edb43e225ddf2c85110d392f9e",
+      "bytes": 28376648,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            320,
+            320
+          ]
+        }
+      ],
+      "classes": [
+        "body",
+        "head"
+      ],
+      "embedded_license": null,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-320-b0d5e258e001.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "cs2-9w-v5-320-8d3730140206.rknn",
+      "format": "rknn",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "8d37301402069c61939722b491ba948d847e19b4046384a6575c7a5a9636f860",
+      "bytes": 2768565,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-9w-v5-320-8d3730140206.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "cs2-cs-yolov5-4-8459a1db056b.rknn",
+      "format": "rknn",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "8459a1db056b4d2e3c3cf79d25bd8400bfa4cf7b77f4427899700425249a14da",
+      "bytes": 2542069,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-cs-yolov5-4-8459a1db056b.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "cs2-cs2-256-v26m-a40f0878841c.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "a40f0878841ca4a06b990b6ed9246e155b38ec75c5c799054f39b4292c2de529",
+      "bytes": 81585763,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            256,
+            256
+          ]
+        }
+      ],
+      "classes": [
+        "警头",
+        "警头身",
+        "匪头",
+        "匪头身"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-cs2-256-v26m-a40f0878841c.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "cs2-cs2-256-v26s-7d54335036ba.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "7d54335036ba265fb831ffe2fe2315ca388d45d4e96a0b9d81fcef1b0608308f",
+      "bytes": 38030487,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            256,
+            256
+          ]
+        }
+      ],
+      "classes": [
+        "警头",
+        "警头身",
+        "匪头",
+        "匪头身"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-cs2-256-v26s-7d54335036ba.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "cs2-cs2-320-v26m-04905bf781de.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "04905bf781de3af38a0886f4a672b996d5f9ad55932026aa478c7994421e369a",
+      "bytes": 81600887,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            320,
+            320
+          ]
+        }
+      ],
+      "classes": [
+        "警头",
+        "警头身",
+        "匪头",
+        "匪头身"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-cs2-320-v26m-04905bf781de.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "cs2-cs2-320-v26s-5ca708917e7f.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "5ca708917e7f8a79fd2784aed44a71172092393f5b18bd23c6566792fd5a4592",
+      "bytes": 38045611,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            320,
+            320
+          ]
+        }
+      ],
+      "classes": [
+        "警头",
+        "警头身",
+        "匪头",
+        "匪头身"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-cs2-320-v26s-5ca708917e7f.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "cs2-cs2-320-v8s-4b04443c8ddb.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "4b04443c8ddb9dfbf358d9210dbe3787d111bef821fcd0dbaa4ddcb4f3214f4c",
+      "bytes": 44626118,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            320,
+            320
+          ]
+        }
+      ],
+      "classes": [
+        "ctBODY",
+        "ctHEED",
+        "tBODY",
+        "tHEED",
+        "dw"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "export_metadata_redacted": true,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-cs2-320-v8s-4b04443c8ddb.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "cs2-cs2-416-v26m-7825aabc0988.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "7825aabc09886f1867bcf600017ec463e875f7af3856593c6d308ed50437d221",
+      "bytes": 81629927,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            416,
+            416
+          ]
+        }
+      ],
+      "classes": [
+        "警头",
+        "警头身",
+        "匪头",
+        "匪头身"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-cs2-416-v26m-7825aabc0988.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "cs2-cs2-416-v26s-c7b0d2cc8447.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "c7b0d2cc84475407c918c93b7630d971553dfe753669770887adcbc57995b09a",
+      "bytes": 38074651,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            416,
+            416
+          ]
+        }
+      ],
+      "classes": [
+        "警头",
+        "警头身",
+        "匪头",
+        "匪头身"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-cs2-416-v26s-c7b0d2cc8447.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "cs2-cs2-640-v26m-2d9f27d88e00.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "2d9f27d88e000bfb1fb8d9fba305415a7d1f6f5fcfddae89557a10b30be2d2cb",
+      "bytes": 81727093,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            640,
+            640
+          ]
+        }
+      ],
+      "classes": [
+        "警头",
+        "警头身",
+        "匪头",
+        "匪头身"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-cs2-640-v26m-2d9f27d88e00.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "cs2-cs2-640-v26s-8fa66c37eded.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "8fa66c37ededb99d869c4e1e5d8181f98e78db0812058e1d44ddaec66715d70b",
+      "bytes": 38171749,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            640,
+            640
+          ]
+        }
+      ],
+      "classes": [
+        "警头",
+        "警头身",
+        "匪头",
+        "匪头身"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-cs2-640-v26s-8fa66c37eded.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "cs2-cs210w-320-v8-0-1-2-3-925bb3c7a157.rknn",
+      "format": "rknn",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "925bb3c7a15778be86a7666836c4ddc23213aea9b46760b4cd0fd96890f6a4e9",
+      "bytes": 7978494,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-cs210w-320-v8-0-1-2-3-925bb3c7a157.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "cs2-go-hh-20260430-v11s-256-e579dd814f33.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "e579dd814f333ae679e76bf5e54704698571341bbd6b3ae90efa06926e71a32e",
+      "bytes": 37751686,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            256,
+            256
+          ]
+        }
+      ],
+      "classes": [
+        "警头",
+        "警头身",
+        "匪头",
+        "匪头身"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-go-hh-20260430-v11s-256-e579dd814f33.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "cs2-go-hh-20260430-v11s-320-247437529677.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "247437529677c49d83cb1ae38e06858aaffa87390ad0a8288f9cfbeeba203738",
+      "bytes": 37766814,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            320,
+            320
+          ]
+        }
+      ],
+      "classes": [
+        "警头",
+        "警头身",
+        "匪头",
+        "匪头身"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-go-hh-20260430-v11s-320-247437529677.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "cs2-go-hh-20260430-v11s-416-ebabdd55432a.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "ebabdd55432a3a5ba705a76d49bb1977a186069e2c8130132d5970fece715500",
+      "bytes": 37795794,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            416,
+            416
+          ]
+        }
+      ],
+      "classes": [
+        "警头",
+        "警头身",
+        "匪头",
+        "匪头身"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-go-hh-20260430-v11s-416-ebabdd55432a.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "cs2-go-hh-20260430-v11s-640-2dc7ce5b4657.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "2dc7ce5b4657f8077f4a0b1984a5a658d35c62209bf340a89e90c8094218e6a6",
+      "bytes": 37892818,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            640,
+            640
+          ]
+        }
+      ],
+      "classes": [
+        "警头",
+        "警头身",
+        "匪头",
+        "匪头身"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-go-hh-20260430-v11s-640-2dc7ce5b4657.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "cs2-team-v5-rk3588.rknn",
+      "format": "rknn",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "27cf2fde2fb230d5409b2fedacd69de0acecc89051127f57b5c765b442cd82ee",
+      "bytes": 2737081,
+      "input_resolution": [
+        320,
+        320
+      ],
+      "classes": [
+        "CT body",
+        "CT head",
+        "T body",
+        "T head"
+      ],
+      "hardware_profile": "RK3588",
+      "validation": "reference-device-profile",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-team-v5-rk3588.rknn",
+      "embedded_license": null
+    },
+    {
+      "file": "cs2-v11-320-go-yolov11s-320-6-bb925bd6d64f.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "bb925bd6d64f142a85157233a4ec924d3aaeb315d155e209db32895bef318630",
+      "bytes": 37782612,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            320,
+            320
+          ]
+        }
+      ],
+      "classes": [
+        "0",
+        "1"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-v11-320-go-yolov11s-320-6-bb925bd6d64f.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "cs2-v5-320-cs2-0-1-2-3-9b83ff3f3c76.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "9b83ff3f3c76045e76df06b573df31416ec7c50c93d6c508255ca2367622ae9d",
+      "bytes": 7187854,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            320,
+            320
+          ]
+        }
+      ],
+      "classes": [],
+      "embedded_license": null,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-v5-320-cs2-0-1-2-3-9b83ff3f3c76.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "cs2-v8-128-cs2-128-97294378d24f.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "97294378d24f4b467abdb5c90a75436cb8d2bb12e2a7c3a6d4ffa39991e9c6c4",
+      "bytes": 12087758,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            128,
+            128
+          ]
+        }
+      ],
+      "classes": [
+        "CT",
+        "T"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-v8-128-cs2-128-97294378d24f.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "cs2-v8-256-cs2-256-0228e97db53c.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "0228e97db53c785abf5d6726f26040a2e49c639b4253ffc5f3e05c83663843d3",
+      "bytes": 12110661,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            256,
+            256
+          ]
+        }
+      ],
+      "classes": [
+        "CT",
+        "T"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-v8-256-cs2-256-0228e97db53c.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "cs2-v8-320-cs2-320-50268e923fa5.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "50268e923fa5b50f1aa3032653adb0f066a216adfd5f1cbe24012a5ac5e1c222",
+      "bytes": 12125785,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            320,
+            320
+          ]
+        }
+      ],
+      "classes": [
+        "CT",
+        "T"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "validation": "onnxruntime-cpu-zero-input",
+      "observed_output_shapes": [
+        [
+          1,
+          6,
+          2100
+        ]
+      ],
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-v8-320-cs2-320-50268e923fa5.onnx"
+    },
+    {
+      "file": "cs2-v8-640-cs2-640-d0e392d0ef9d.onnx",
+      "format": "onnx",
+      "categories": [
+        "CS2"
+      ],
+      "sha256": "d0e392d0ef9daea1e27a4fe255b51717c011933cb529a6c3a822d99779dfaae4",
+      "bytes": 12251826,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            640,
+            640
+          ]
+        }
+      ],
+      "classes": [
+        "CT",
+        "T"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/cs2-v8-640-cs2-640-d0e392d0ef9d.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "vision-rust-yolov5-1-8e101c9af51b.rknn",
+      "format": "rknn",
+      "categories": [
+        "Rust"
+      ],
+      "sha256": "8e101c9af51b9cf636bbd9b640021655992e1b4113463c679afe4107abb7898f",
+      "bytes": 3909403,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-rust-yolov5-1-8e101c9af51b.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "valorant-640v11s-07665caf1ede.onnx",
+      "format": "onnx",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "07665caf1ede5f1ad2a88511a23901b1eb3476996361d308190ced5c4078e4d0",
+      "bytes": 37913257,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            640,
+            640
+          ]
+        }
+      ],
+      "classes": [
+        "body",
+        "head",
+        "teammate",
+        "breakable",
+        "dodge"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/valorant-640v11s-07665caf1ede.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "valorant-7-wa-v26s-256x-6eeb1fc4d4ff.onnx",
+      "format": "onnx",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "6eeb1fc4d4fff92b3be314f9ce0fab2f8cf3688fb600c2244c52856ec54dc6ed",
+      "bytes": 38036775,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            256,
+            256
+          ]
+        }
+      ],
+      "classes": [
+        "st",
+        "qiu",
+        "dj",
+        "fyb",
+        "sg1",
+        "sg2",
+        "sg3",
+        "sg4"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/valorant-7-wa-v26s-256x-6eeb1fc4d4ff.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "valorant-7-wa-v26s-320x-281cf383b9f5.onnx",
+      "format": "onnx",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "281cf383b9f5ffd80c54f174ec1337b45aca4cd7e0a87db994985979b6805348",
+      "bytes": 38051899,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            320,
+            320
+          ]
+        }
+      ],
+      "classes": [
+        "st",
+        "qiu",
+        "dj",
+        "fyb",
+        "sg1",
+        "sg2",
+        "sg3",
+        "sg4"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "validation": "onnxruntime-cpu-zero-input",
+      "observed_output_shapes": [
+        [
+          1,
+          300,
+          6
+        ]
+      ],
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/valorant-7-wa-v26s-320x-281cf383b9f5.onnx"
+    },
+    {
+      "file": "valorant-7-wa-v26s-416x-0ab254d4e986.onnx",
+      "format": "onnx",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "0ab254d4e9865fc3de82c75b08b60911e9ed2c2bf5c7efdd4ecd644d0bdfd516",
+      "bytes": 38080939,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            416,
+            416
+          ]
+        }
+      ],
+      "classes": [
+        "st",
+        "qiu",
+        "dj",
+        "fyb",
+        "sg1",
+        "sg2",
+        "sg3",
+        "sg4"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/valorant-7-wa-v26s-416x-0ab254d4e986.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "valorant-7-wa-v26s-640x-5eda29ec6206.onnx",
+      "format": "onnx",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "5eda29ec6206003dfcd0683bfbf8ff7189689f0b1247df2e31476ade840e7f70",
+      "bytes": 38178037,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            640,
+            640
+          ]
+        }
+      ],
+      "classes": [
+        "st",
+        "qiu",
+        "dj",
+        "fyb",
+        "sg1",
+        "sg2",
+        "sg3",
+        "sg4"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/valorant-7-wa-v26s-640x-5eda29ec6206.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "valorant-lx-val-v5-320-95d59b068745.onnx",
+      "format": "onnx",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "95d59b0687457d89bef5500c9c98e3ea8959ab26606c26bd29bbcdc1e82dbfff",
+      "bytes": 28207391,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            320,
+            320
+          ]
+        }
+      ],
+      "classes": [
+        "body",
+        "head"
+      ],
+      "embedded_license": null,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/valorant-lx-val-v5-320-95d59b068745.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "valorant-red-v11n-192-bf63f325c3b1.onnx",
+      "format": "onnx",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "bf63f325c3b1b35d9dcdf8b1895b84290225da871fe6a7ae0f9e2dd9f424d3b2",
+      "bytes": 10431137,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            192,
+            192
+          ]
+        }
+      ],
+      "classes": [
+        "None",
+        "ͷ"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/valorant-red-v11n-192-bf63f325c3b1.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "valorant-red-v11n-320-1399bcd5569a.onnx",
+      "format": "onnx",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "1399bcd5569a8fd2c6602c187d750c258c7ef50fc144e400b317b1b3fc612bdf",
+      "bytes": 10458027,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            320,
+            320
+          ]
+        }
+      ],
+      "classes": [
+        "None",
+        "ͷ"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/valorant-red-v11n-320-1399bcd5569a.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "valorant-red-v11s-192-ad53f998f9f5.onnx",
+      "format": "onnx",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "ad53f998f9f5713d474d3fa3d598c609547dde4ccffb423b4b4bdd64ea300fe4",
+      "bytes": 37755501,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            192,
+            192
+          ]
+        }
+      ],
+      "classes": [
+        "None",
+        "ͷ"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/valorant-red-v11s-192-ad53f998f9f5.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "valorant-red-v11s-256-a0f659cc76c1.onnx",
+      "format": "onnx",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "a0f659cc76c1fb4396d510bb2fbd537edaaf1937812df2ccbd820ee138deb769",
+      "bytes": 37767267,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            256,
+            256
+          ]
+        }
+      ],
+      "classes": [
+        "None",
+        "ͷ"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/valorant-red-v11s-256-a0f659cc76c1.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "valorant-red-v11s-320-2b1e39527691.onnx",
+      "format": "onnx",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "2b1e39527691c6e6862269dbc8de26a674fce1639ed4eafb0d572753ea853f35",
+      "bytes": 37782391,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            320,
+            320
+          ]
+        }
+      ],
+      "classes": [
+        "None",
+        "ͷ"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/valorant-red-v11s-320-2b1e39527691.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "valorant-red-v11s-512-0bfaa55342e4.onnx",
+      "format": "onnx",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "0bfaa55342e4d05cea95474a20b1a5766b4914efe91a5fbf59cffe9b76b90c66",
+      "bytes": 37847966,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            512,
+            512
+          ]
+        }
+      ],
+      "classes": [
+        "None",
+        "ͷ"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/valorant-red-v11s-512-0bfaa55342e4.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "valorant-v11-320-4-8ae4a641fffa.onnx",
+      "format": "onnx",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "8ae4a641fffa3bb9c6279b3cfc87a74aadc8c4673f345680dfa89b60e20d3c6c",
+      "bytes": 37787202,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            320,
+            320
+          ]
+        }
+      ],
+      "classes": [
+        "body",
+        "head",
+        "teammate",
+        "breakable",
+        "dodge"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/valorant-v11-320-4-8ae4a641fffa.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "valorant-v11-416-4-14eadbac03f5.onnx",
+      "format": "onnx",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "14eadbac03f5acb3f74586a58df7fb4eef1a688cab9f64556a38649da34fbe67",
+      "bytes": 37816197,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            416,
+            416
+          ]
+        }
+      ],
+      "classes": [
+        "body",
+        "head",
+        "teammate",
+        "breakable",
+        "dodge"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/valorant-v11-416-4-14eadbac03f5.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "valorant-v11-s256-17c010fe71c1.onnx",
+      "format": "onnx",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "17c010fe71c13583e8c806b9a2dbdc5b80814ad1457f22d66b5457be6a58b790",
+      "bytes": 44597185,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            256,
+            256
+          ]
+        }
+      ],
+      "classes": [
+        "身SHENSSSSDAWWWWD",
+        "头ASDDWWWW",
+        "None",
+        "道具FASFASA",
+        "闪光ADSAFAGE3"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/valorant-v11-s256-17c010fe71c1.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "valorant-v11-s320-1a68c54f9c5f.onnx",
+      "format": "onnx",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "1a68c54f9c5fb6107c68513ebb6b683ba034f0ab88da05f4a545ce8d189d10a8",
+      "bytes": 44612309,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            320,
+            320
+          ]
+        }
+      ],
+      "classes": [
+        "身SHENSSSSDAWWWWD",
+        "头ASDDWWWW",
+        "None",
+        "道具FASFASA",
+        "闪光ADSAFAGE3"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/valorant-v11-s320-1a68c54f9c5f.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "valorant-v11-s416-1bd3ea57e8a2.onnx",
+      "format": "onnx",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "1bd3ea57e8a2a6c919d9b4efcdba6b79fff302a2e7aa2fc9a0a09623ea9a85f8",
+      "bytes": 44641290,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            416,
+            416
+          ]
+        }
+      ],
+      "classes": [
+        "身SHENSSSSDAWWWWD",
+        "头ASDDWWWW",
+        "None",
+        "道具FASFASA",
+        "闪光ADSAFAGE3"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/valorant-v11-s416-1bd3ea57e8a2.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "valorant-v11-s640-d3fce9ce6d74.onnx",
+      "format": "onnx",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "d3fce9ce6d747787dea397a5b24fee00075eee4dd4d20aa5fe4dc74a87c75e7d",
+      "bytes": 44737884,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            640,
+            640
+          ]
+        }
+      ],
+      "classes": [
+        "身SHENSSSSDAWWWWD",
+        "头ASDDWWWW",
+        "None",
+        "道具FASFASA",
+        "闪光ADSAFAGE3"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/valorant-v11-s640-d3fce9ce6d74.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "valorant-v8-256-4-94748857963c.onnx",
+      "format": "onnx",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "94748857963c6cc54f57c32c3edb96cd154359d4274e5a3591bd2f55649b9989",
+      "bytes": 37772078,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            256,
+            256
+          ]
+        }
+      ],
+      "classes": [
+        "body",
+        "head",
+        "teammate",
+        "breakable",
+        "dodge"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/valorant-v8-256-4-94748857963c.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "valorant-wa-v8-256-1a09ffc077c8.onnx",
+      "format": "onnx",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "1a09ffc077c870527d04fe9fa6e97345d10c1056b3ff25ac40cd3b0f76cc9e5f",
+      "bytes": 11851655,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            256,
+            256
+          ]
+        }
+      ],
+      "classes": [
+        "st",
+        "yan",
+        "qiu"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/valorant-wa-v8-256-1a09ffc077c8.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "valorant-val-256-v8-eea09ea95b53.onnx",
+      "format": "onnx",
+      "categories": [
+        "VALORANT",
+        "其他模型"
+      ],
+      "sha256": "eea09ea95b53d833082f33f01da1477eb3b5d5e2b9bdb72cef68ee0623324c65",
+      "bytes": 12100281,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            256,
+            256
+          ]
+        }
+      ],
+      "classes": [
+        "body",
+        "head",
+        "teammate",
+        "breakable",
+        "dodge"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/valorant-val-256-v8-eea09ea95b53.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "vision-320dawan0907-5c0e6b119b4a.rknn",
+      "format": "rknn",
+      "categories": [
+        "三角洲行动"
+      ],
+      "sha256": "5c0e6b119b4ac47df3f31296b2015ea7fe900fa6487d54547d48da24982ca201",
+      "bytes": 4115913,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-320dawan0907-5c0e6b119b4a.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-50d840264f50.rknn",
+      "format": "rknn",
+      "categories": [
+        "三角洲行动"
+      ],
+      "sha256": "50d840264f50f32f4369e612823b34e0939f97b05dd7fe86a8b6911e24b52cad",
+      "bytes": 4185670,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-50d840264f50.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-sjzdawan-0121-v8s-256-cf2c1648ac1f.rknn",
+      "format": "rknn",
+      "categories": [
+        "三角洲行动"
+      ],
+      "sha256": "cf2c1648ac1f2eb347d759ec76e7242d139969e27780c9837fce0a6255ce8f34",
+      "bytes": 4063244,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-sjzdawan-0121-v8s-256-cf2c1648ac1f.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-yolov5n-21a6fd898fd2.rknn",
+      "format": "rknn",
+      "categories": [
+        "三角洲行动"
+      ],
+      "sha256": "21a6fd898fd23a1cc4e361e98dfc2d37893ce3ff154b7cb186bf109d71014dac",
+      "bytes": 2539381,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-yolov5n-21a6fd898fd2.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-yolov8n-082daee0f41c.rknn",
+      "format": "rknn",
+      "categories": [
+        "三角洲行动"
+      ],
+      "sha256": "082daee0f41cd5d46626a65ac8eab910f868e3c0a93f4778f9e795a68c2d904b",
+      "bytes": 3922568,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-yolov8n-082daee0f41c.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-cod-yolov5-2-231841b3bc68.rknn",
+      "format": "rknn",
+      "categories": [
+        "使命召唤"
+      ],
+      "sha256": "231841b3bc685ce3b9589e1f080af7c8d2a407945a0b55103119e37243e94e48",
+      "bytes": 2539381,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-cod-yolov5-2-231841b3bc68.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-codm-yolov5-2-ced2388160c2.rknn",
+      "format": "rknn",
+      "categories": [
+        "使命召唤手游"
+      ],
+      "sha256": "ced2388160c24dbef99b887cf4faf2eb4ab90beefcfd33071a31be6262f25635",
+      "bytes": 2539317,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-codm-yolov5-2-ced2388160c2.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-640-88-fb9d1f179b9d.onnx",
+      "format": "onnx",
+      "categories": [
+        "其他模型"
+      ],
+      "sha256": "fb9d1f179b9dcb751dacf39d2d665a3d902ff8829cdda62aab941e9bca0a3266",
+      "bytes": 28509655,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            640,
+            640
+          ]
+        }
+      ],
+      "classes": [
+        "head",
+        "body"
+      ],
+      "embedded_license": null,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-640-88-fb9d1f179b9d.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "vision-v11-320-k-45b6d6515a94.onnx",
+      "format": "onnx",
+      "categories": [
+        "其他模型"
+      ],
+      "sha256": "45b6d6515a94ba1ff418fbb20d3f9578a9ad83fd02d6f9a3b87fff92a81cac77",
+      "bytes": 10438432,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            320,
+            320
+          ]
+        }
+      ],
+      "classes": [
+        "st"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-v11-320-k-45b6d6515a94.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "vision-v5-256-4ae937b2ff72.onnx",
+      "format": "onnx",
+      "categories": [
+        "其他模型"
+      ],
+      "sha256": "4ae937b2ff72cf4b2019db0a5fc60358ba3fd0914993e2495b2d908cc868ddfc",
+      "bytes": 7156442,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            256,
+            256
+          ]
+        }
+      ],
+      "classes": [
+        "0",
+        "1"
+      ],
+      "embedded_license": null,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-v5-256-4ae937b2ff72.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "vision-yolov8-2-795c255fe3f9.rknn",
+      "format": "rknn",
+      "categories": [
+        "卡拉彼丘"
+      ],
+      "sha256": "795c255fe3f98aab42e28bd8616fe5ce55811eb31e03d0ea24e8efde612945c2",
+      "bytes": 7132065,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-yolov8-2-795c255fe3f9.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-hpjyv8rknn-8389433b9675.rknn",
+      "format": "rknn",
+      "categories": [
+        "和平精英"
+      ],
+      "sha256": "8389433b967507aabe7b8b9533714ee63b665396e2f184191c58abdd389afd4f",
+      "bytes": 12234952,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-hpjyv8rknn-8389433b9675.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-v11s320-d0f6e9239eff.rknn",
+      "format": "rknn",
+      "categories": [
+        "和平精英"
+      ],
+      "sha256": "d0f6e9239effeb146828b0ad149f15fed577524d323b81cd64bc9a19a67e8a2d",
+      "bytes": 11025744,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-v11s320-d0f6e9239eff.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-yolov5-2-5a80bab19a68.rknn",
+      "format": "rknn",
+      "categories": [
+        "和平精英"
+      ],
+      "sha256": "5a80bab19a685249e0fcce005ed0835d1e4a120e7001d9e41ad96b681ee3d209",
+      "bytes": 2539381,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-yolov5-2-5a80bab19a68.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-yolo-133ce416f7e6.rknn",
+      "format": "rknn",
+      "categories": [
+        "堡垒之夜"
+      ],
+      "sha256": "133ce416f7e6c73a757672dfbf0179e0b335869475511a5ee1e142e2c91c1105",
+      "bytes": 4287255,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-yolo-133ce416f7e6.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-yolov5-2-445b6270e6e6.rknn",
+      "format": "rknn",
+      "categories": [
+        "大战场"
+      ],
+      "sha256": "445b6270e6e6c43032b9df09f72f00467cd0928d7a663c6d650dfed383f6766c",
+      "bytes": 2528307,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-yolov5-2-445b6270e6e6.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-94ee2bce9e5b.rknn",
+      "format": "rknn",
+      "categories": [
+        "守望先锋"
+      ],
+      "sha256": "94ee2bce9e5b78769d4aa2a5e9c24fe3689242c672ff77f8ec319808cca4afb2",
+      "bytes": 4185350,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-94ee2bce9e5b.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-yolov5-2-8a36c7bd155f.rknn",
+      "format": "rknn",
+      "categories": [
+        "守望先锋"
+      ],
+      "sha256": "8a36c7bd155f355fd6309fe97db3916496b61df6c197b9f627a974f94612524f",
+      "bytes": 2539381,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-yolov5-2-8a36c7bd155f.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-6-406e2a246092.rknn",
+      "format": "rknn",
+      "categories": [
+        "战地6"
+      ],
+      "sha256": "406e2a2460924c4d646f96a09a1efa7a584e3b4a39714309849c1c3bed3dac0d",
+      "bytes": 12341251,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-6-406e2a246092.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-6-yolov5-5860ed25e7ab.rknn",
+      "format": "rknn",
+      "categories": [
+        "战地6"
+      ],
+      "sha256": "5860ed25e7ab81902670868c5c45781583a5628e8cadd1a9219f2e36ffa18851",
+      "bytes": 3007823,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-6-yolov5-5860ed25e7ab.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-v4-26822c718539.rknn",
+      "format": "rknn",
+      "categories": [
+        "暗区突围"
+      ],
+      "sha256": "26822c71853921ddee7fde81366e93d13e9d4de299a6dcba0563c8d1a942c7ae",
+      "bytes": 4185798,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-v4-26822c718539.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-yolov5-2-0d26be9b7dba.rknn",
+      "format": "rknn",
+      "categories": [
+        "最终对决"
+      ],
+      "sha256": "0d26be9b7dbad52dfd0499b04dfb133104b0c9288b965d0551db29b14e78a628",
+      "bytes": 2539317,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-yolov5-2-0d26be9b7dba.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-aca032d17451.rknn",
+      "format": "rknn",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "aca032d17451518e3e70218b831b1122be82127c1c007af013a2ea48675f2549",
+      "bytes": 4191494,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-aca032d17451.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-yolov5-320-fa06b3429254.rknn",
+      "format": "rknn",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "fa06b34292544f83b76e3649261aea9c4fe7254679f9f88720382521ea7ef450",
+      "bytes": 2539317,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-yolov5-320-fa06b3429254.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-yolov8-640-c4348640df51.rknn",
+      "format": "rknn",
+      "categories": [
+        "VALORANT"
+      ],
+      "sha256": "c4348640df518e0c1006ac6b779132ba1d1184a7b7800641e9ec84d4aff6c316",
+      "bytes": 3909467,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-yolov8-640-c4348640df51.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-ssjj2v8rknn-8703b4a5a39e.rknn",
+      "format": "rknn",
+      "categories": [
+        "生死狙击（按缩写推断）"
+      ],
+      "sha256": "8703b4a5a39eae299600cb1333164298c30fa4db1904022a9bf90d4eb90fe653",
+      "bytes": 4066632,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-ssjj2v8rknn-8703b4a5a39e.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-yolov5-2-5ce9fcae2840.rknn",
+      "format": "rknn",
+      "categories": [
+        "界外狂潮"
+      ],
+      "sha256": "5ce9fcae284028c634432c5d4c4832e1916e29b49ef8a3e201831119993a9c53",
+      "bytes": 2539317,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-yolov5-2-5ce9fcae2840.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "crossfire-7-cfv26s-256x-d32dc1304e75.onnx",
+      "format": "onnx",
+      "categories": [
+        "穿越火线"
+      ],
+      "sha256": "d32dc1304e753ba38b3f0b4762ea912e0b9530f30f6ca051929346c51a556da9",
+      "bytes": 38028986,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            256,
+            256
+          ]
+        }
+      ],
+      "classes": [
+        "tou",
+        "st",
+        "fyb"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/crossfire-7-cfv26s-256x-d32dc1304e75.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "crossfire-7-cfv26s-320x-1f03e936398e.onnx",
+      "format": "onnx",
+      "categories": [
+        "穿越火线"
+      ],
+      "sha256": "1f03e936398e2c0505f6edc4e2084ff8fd3b455cd433ac3eb369d4aff1c32dc9",
+      "bytes": 38044110,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            320,
+            320
+          ]
+        }
+      ],
+      "classes": [
+        "tou",
+        "st",
+        "fyb"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "validation": "onnxruntime-cpu-zero-input",
+      "observed_output_shapes": [
+        [
+          1,
+          300,
+          6
+        ]
+      ],
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/crossfire-7-cfv26s-320x-1f03e936398e.onnx"
+    },
+    {
+      "file": "crossfire-7-cfv26s-416x-99aabfab569d.onnx",
+      "format": "onnx",
+      "categories": [
+        "穿越火线"
+      ],
+      "sha256": "99aabfab569d7916b250aa3d2ad9602643a3e81599f926346af540d0f4fba35c",
+      "bytes": 38073150,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            416,
+            416
+          ]
+        }
+      ],
+      "classes": [
+        "tou",
+        "st",
+        "fyb"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/crossfire-7-cfv26s-416x-99aabfab569d.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "crossfire-7-cfv26s-640x-f9e425c1563c.onnx",
+      "format": "onnx",
+      "categories": [
+        "穿越火线"
+      ],
+      "sha256": "f9e425c1563c7cffe88157757e189049e53721946734fa6b406379ed021fdca5",
+      "bytes": 38170248,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            3,
+            640,
+            640
+          ]
+        }
+      ],
+      "classes": [
+        "tou",
+        "st",
+        "fyb"
+      ],
+      "embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/crossfire-7-cfv26s-640x-f9e425c1563c.onnx",
+      "validation": "onnx-structure"
+    },
+    {
+      "file": "crossfire-cf-320-27e814731de7.rknn",
+      "format": "rknn",
+      "categories": [
+        "穿越火线"
+      ],
+      "sha256": "27e814731de715e0bcf84a9878942e945d7b0e0d1af31b275ef421d94cc189cf",
+      "bytes": 4175171,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/crossfire-cf-320-27e814731de7.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "crossfire-cf-v8-edgeai-44cbe711f2e7.rknn",
+      "format": "rknn",
+      "categories": [
+        "穿越火线"
+      ],
+      "sha256": "44cbe711f2e71f5defe7e73e011fd6328a0bb6234ac314e5fe4e4b40604385f6",
+      "bytes": 4070224,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/crossfire-cf-v8-edgeai-44cbe711f2e7.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "crossfire-cf-yolo-3a663e6b9740.rknn",
+      "format": "rknn",
+      "categories": [
+        "穿越火线"
+      ],
+      "sha256": "3a663e6b9740d28bf59fb2386580055551acbe37638625d271062f3162e82c4e",
+      "bytes": 3899867,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/crossfire-cf-yolo-3a663e6b9740.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-cfhd-17d6f26cd9f4.rknn",
+      "format": "rknn",
+      "categories": [
+        "穿越火线 HD"
+      ],
+      "sha256": "17d6f26cd9f4b70f435d510ce7f37fb9988e6e3221d774ff2def45d14ae70c52",
+      "bytes": 4190982,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-cfhd-17d6f26cd9f4.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-cfhd-yolov5-1-91b0b41ec24b.rknn",
+      "format": "rknn",
+      "categories": [
+        "穿越火线 HD"
+      ],
+      "sha256": "91b0b41ec24b43b2221eb0eba439c65fa8a2da1359a96f32bb04439e1289f6d9",
+      "bytes": 2537589,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-cfhd-yolov5-1-91b0b41ec24b.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-8b51d0bfbb19.rknn",
+      "format": "rknn",
+      "categories": [
+        "终极角逐"
+      ],
+      "sha256": "8b51d0bfbb1903439891764015188b60dc06cdb4928f7dbecf6a7377880b1b8b",
+      "bytes": 4185286,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-8b51d0bfbb19.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-21dc2ec0c96e.rknn",
+      "format": "rknn",
+      "categories": [
+        "绝地求生（PUBG）"
+      ],
+      "sha256": "21dc2ec0c96e3854a6f44655ec45e60ee97332f27e7be64d4c794b206e7349d1",
+      "bytes": 4184838,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-21dc2ec0c96e.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-pubg-320-v8n-83f81d4fed0b.rknn",
+      "format": "rknn",
+      "categories": [
+        "绝地求生（PUBG）"
+      ],
+      "sha256": "83f81d4fed0b6cde4fc5b2673ed2019bb76e2d7142395718de91612c2b3e0eab",
+      "bytes": 4067088,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-pubg-320-v8n-83f81d4fed0b.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-pubgv8s-256-66732f296118.rknn",
+      "format": "rknn",
+      "categories": [
+        "绝地求生（PUBG）"
+      ],
+      "sha256": "66732f296118a960fa630b2654e6da2f58dbb70790c63d91f2fc881c459b4d5d",
+      "bytes": 12341315,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-pubgv8s-256-66732f296118.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    },
+    {
+      "file": "vision-84-yolov5-1-9f2e29c2969e.rknn",
+      "format": "rknn",
+      "categories": [
+        "远光84"
+      ],
+      "sha256": "9f2e29c2969ef7ef522145dfb38db230714e4e5f0e9bbf7d704e6c1086522988",
+      "bytes": 2537525,
+      "download_url": "https://github.com/pooh8964xi-cyber/vision-model-library/releases/download/v0.1.0/vision-84-yolov5-1-9f2e29c2969e.rknn",
+      "validation": "rknn-header",
+      "embedded_license": null,
+      "classes": []
+    }
+  ]
+}
